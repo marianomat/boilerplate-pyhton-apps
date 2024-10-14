@@ -1,0 +1,51 @@
+# Python files and directories
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Virtual environments
+env/
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Environment and configuration files
+.env
+.env.*
+.tox/
+
+# Test-related files
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+
+# Log files
+*.log
+
+# Version control and IDE-related files
+.git/
+.gitignore
+.vscode/
+.mypy_cache/
+.pytest_cache/
+.hypothesis/
+
+# OS-specific files
+**/.DS_Store
+
+# AWS and SSH keys (security-sensitive files)
+**/.aws/
+**/.ssh/
+
+# Docker-related files (optional, only exclude if not needed inside the container)
+Dockerfile
+Dockerfile.prod
+docker-compose.yml
+
+# Readme (optional)
+README.md
